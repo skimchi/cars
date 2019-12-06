@@ -18,7 +18,7 @@ while true; do
 			echo "What model?"
 			read MODEL
 			CAR="${YEAR}:${MAKE}:${MODEL}"
-			echo $CAR >> My_old_cars
+			echo "$CAR" >> My_old_cars
 			;;
 			
 		"2")
